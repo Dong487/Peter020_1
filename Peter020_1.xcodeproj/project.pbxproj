@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50DFCC628B83BF70051741E /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50DFCC528B83BF70051741E /* CacheAsyncImage.swift */; };
+		F532C33328CF3E23009F3395 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532C33228CF3E23009F3395 /* OrderModel.swift */; };
+		F532C33528CF43C4009F3395 /* Uploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F532C33428CF43C4009F3395 /* Uploader.swift */; };
+		F595388628B425CA007B2616 /* DrinkLinkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F595388528B425CA007B2616 /* DrinkLinkViewModel.swift */; };
+		F5A1AD4628BAEA5B00897D6E /* CartModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A1AD4528BAEA5B00897D6E /* CartModel.swift */; };
+		F5A1AD4828BAF69A00897D6E /* CartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A1AD4728BAF69A00897D6E /* CartViewModel.swift */; };
 		F5A2614B28AE150200565D0E /* Peter020_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2614A28AE150200565D0E /* Peter020_1App.swift */; };
-		F5A2614D28AE150200565D0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2614C28AE150200565D0E /* ContentView.swift */; };
 		F5A2614F28AE150500565D0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A2614E28AE150500565D0E /* Assets.xcassets */; };
 		F5A2615228AE150500565D0E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5A2615128AE150500565D0E /* Preview Assets.xcassets */; };
 		F5A2615C28AE150600565D0E /* Peter020_1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2615B28AE150600565D0E /* Peter020_1Tests.swift */; };
 		F5A2616628AE150600565D0E /* Peter020_1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2616528AE150600565D0E /* Peter020_1UITests.swift */; };
 		F5A2616828AE150600565D0E /* Peter020_1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2616728AE150600565D0E /* Peter020_1UITestsLaunchTests.swift */; };
+		F5A2617528AE151F00565D0E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2617428AE151F00565D0E /* HomeView.swift */; };
+		F5A2617B28AE2BA800565D0E /* MenuService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2617A28AE2BA800565D0E /* MenuService.swift */; };
+		F5A2617D28AE2FD000565D0E /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2617C28AE2FD000565D0E /* MenuModel.swift */; };
+		F5A2617F28AE5E9B00565D0E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A2617E28AE5E9B00565D0E /* HomeViewModel.swift */; };
+		F5C0659B28B25355008D6440 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0659A28B25355008D6440 /* SnapCarousel.swift */; };
+		F5C0659D28B2847B008D6440 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C0659C28B2847B008D6440 /* DrinkView.swift */; };
+		F5F5F6E528B2FA1B005F7A7C /* DrinkLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F5F6E428B2FA1B005F7A7C /* DrinkLink.swift */; };
+		F5F6349028BB48C100F33DFE /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F6348F28BB48C100F33DFE /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50DFCC528B83BF70051741E /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		F532C33228CF3E23009F3395 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		F532C33428CF43C4009F3395 /* Uploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uploader.swift; sourceTree = "<group>"; };
+		F595388528B425CA007B2616 /* DrinkLinkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLinkViewModel.swift; sourceTree = "<group>"; };
+		F5A1AD4528BAEA5B00897D6E /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
+		F5A1AD4728BAF69A00897D6E /* CartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewModel.swift; sourceTree = "<group>"; };
 		F5A2614728AE150200565D0E /* Peter020_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Peter020_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A2614A28AE150200565D0E /* Peter020_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter020_1App.swift; sourceTree = "<group>"; };
-		F5A2614C28AE150200565D0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5A2614E28AE150500565D0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5A2615128AE150500565D0E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F5A2615728AE150600565D0E /* Peter020_1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter020_1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +62,14 @@
 		F5A2616128AE150600565D0E /* Peter020_1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Peter020_1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A2616528AE150600565D0E /* Peter020_1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter020_1UITests.swift; sourceTree = "<group>"; };
 		F5A2616728AE150600565D0E /* Peter020_1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peter020_1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5A2617428AE151F00565D0E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F5A2617A28AE2BA800565D0E /* MenuService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuService.swift; sourceTree = "<group>"; };
+		F5A2617C28AE2FD000565D0E /* MenuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		F5A2617E28AE5E9B00565D0E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F5C0659A28B25355008D6440 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		F5C0659C28B2847B008D6440 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		F5F5F6E428B2FA1B005F7A7C /* DrinkLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLink.swift; sourceTree = "<group>"; };
+		F5F6348F28BB48C100F33DFE /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +121,10 @@
 			isa = PBXGroup;
 			children = (
 				F5A2614A28AE150200565D0E /* Peter020_1App.swift */,
-				F5A2614C28AE150200565D0E /* ContentView.swift */,
+				F5A2617928AE154F00565D0E /* Services */,
+				F5A2617728AE154000565D0E /* Models */,
+				F5A2617828AE154700565D0E /* ViewModels */,
+				F5A2617628AE153900565D0E /* Views */,
 				F5A2614E28AE150500565D0E /* Assets.xcassets */,
 				F5A2615028AE150500565D0E /* Preview Content */,
 			);
@@ -125,6 +154,48 @@
 				F5A2616728AE150600565D0E /* Peter020_1UITestsLaunchTests.swift */,
 			);
 			path = Peter020_1UITests;
+			sourceTree = "<group>";
+		};
+		F5A2617628AE153900565D0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2617428AE151F00565D0E /* HomeView.swift */,
+				F5C0659C28B2847B008D6440 /* DrinkView.swift */,
+				F5C0659A28B25355008D6440 /* SnapCarousel.swift */,
+				F5F5F6E428B2FA1B005F7A7C /* DrinkLink.swift */,
+				F50DFCC528B83BF70051741E /* CacheAsyncImage.swift */,
+				F5F6348F28BB48C100F33DFE /* CartView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5A2617728AE154000565D0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2617C28AE2FD000565D0E /* MenuModel.swift */,
+				F5A1AD4528BAEA5B00897D6E /* CartModel.swift */,
+				F532C33228CF3E23009F3395 /* OrderModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5A2617828AE154700565D0E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2617E28AE5E9B00565D0E /* HomeViewModel.swift */,
+				F5A1AD4728BAF69A00897D6E /* CartViewModel.swift */,
+				F595388528B425CA007B2616 /* DrinkLinkViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F5A2617928AE154F00565D0E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F5A2617A28AE2BA800565D0E /* MenuService.swift */,
+				F532C33428CF43C4009F3395 /* Uploader.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +328,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5A2614D28AE150200565D0E /* ContentView.swift in Sources */,
+				F5F5F6E528B2FA1B005F7A7C /* DrinkLink.swift in Sources */,
+				F5A2617D28AE2FD000565D0E /* MenuModel.swift in Sources */,
+				F5A2617528AE151F00565D0E /* HomeView.swift in Sources */,
+				F5A1AD4828BAF69A00897D6E /* CartViewModel.swift in Sources */,
 				F5A2614B28AE150200565D0E /* Peter020_1App.swift in Sources */,
+				F50DFCC628B83BF70051741E /* CacheAsyncImage.swift in Sources */,
+				F595388628B425CA007B2616 /* DrinkLinkViewModel.swift in Sources */,
+				F5F6349028BB48C100F33DFE /* CartView.swift in Sources */,
+				F5C0659B28B25355008D6440 /* SnapCarousel.swift in Sources */,
+				F5A2617F28AE5E9B00565D0E /* HomeViewModel.swift in Sources */,
+				F532C33328CF3E23009F3395 /* OrderModel.swift in Sources */,
+				F5A1AD4628BAEA5B00897D6E /* CartModel.swift in Sources */,
+				F532C33528CF43C4009F3395 /* Uploader.swift in Sources */,
+				F5C0659D28B2847B008D6440 /* DrinkView.swift in Sources */,
+				F5A2617B28AE2BA800565D0E /* MenuService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +508,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,7 +538,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
